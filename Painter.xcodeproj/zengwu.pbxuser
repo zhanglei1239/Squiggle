@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	0F8F97DF1235D5EC00F1F3EA /* HomeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 505}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 288}";
+		};
+	};
+	0F8F97E01235D5EC00F1F3EA /* HomeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 910}}";
+			sepNavSelRange = "{837, 0}";
+			sepNavVisRange = "{342, 1421}";
+		};
+	};
+	0F8F97F21235D6EA00F1F3EA /* PainterView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 532}}";
+			sepNavSelRange = "{433, 8}";
+			sepNavVisRange = "{0, 562}";
+		};
+	};
+	0F8F97F31235D6EA00F1F3EA /* PainterView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 2236}}";
+			sepNavSelRange = "{4008, 0}";
+			sepNavVisRange = "{243, 1032}";
+		};
+	};
+	0F8F99281235E7CF00F1F3EA /* Squiggle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 532}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 436}";
+		};
+	};
+	0F8F99291235E7CF00F1F3EA /* Squiggle.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 598}}";
+			sepNavSelRange = "{159, 0}";
+			sepNavVisRange = "{33, 647}";
+		};
+	};
+	1D3623240D0F684500981E51 /* PainterAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 409}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 376}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Painter */ = {
+		activeExec = 0;
+		executables = (
+			E743834D12B8FB2C00C1ED63 /* Painter */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E743834D12B8FB2C00C1ED63 /* Painter */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Painter */;
+		codeSenseManager = E743835A12B8FB4C00C1ED63 /* Code sense */;
+		executables = (
+			E743834D12B8FB2C00C1ED63 /* Painter */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					627,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314153873;
+			PBXWorkspaceStateSaveDate = 314153873;
+		};
+		perUserProjectItems = {
+			E743843412B905F900C1ED63 /* PBXTextBookmark */ = E743843412B905F900C1ED63 /* PBXTextBookmark */;
+			E743843512B905F900C1ED63 /* PBXTextBookmark */ = E743843512B905F900C1ED63 /* PBXTextBookmark */;
+			E743843612B905F900C1ED63 /* PBXTextBookmark */ = E743843612B905F900C1ED63 /* PBXTextBookmark */;
+			E743843712B905F900C1ED63 /* PBXTextBookmark */ = E743843712B905F900C1ED63 /* PBXTextBookmark */;
+			E743843812B905F900C1ED63 /* PBXTextBookmark */ = E743843812B905F900C1ED63 /* PBXTextBookmark */;
+			E743843912B905F900C1ED63 /* PBXTextBookmark */ = E743843912B905F900C1ED63 /* PBXTextBookmark */;
+			E743843A12B905F900C1ED63 /* PBXTextBookmark */ = E743843A12B905F900C1ED63 /* PBXTextBookmark */;
+			E743843D12B905F900C1ED63 /* PBXTextBookmark */ = E743843D12B905F900C1ED63 /* PBXTextBookmark */;
+			E7AFB1DA12B99C4600C4CF8B /* PBXTextBookmark */ = E7AFB1DA12B99C4600C4CF8B /* PBXTextBookmark */;
+		};
+		sourceControlManager = E743835912B8FB4C00C1ED63 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E743834D12B8FB2C00C1ED63 /* Painter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Painter;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E743835912B8FB4C00C1ED63 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E743835A12B8FB4C00C1ED63 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E743843412B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PainterAppDelegate.h */;
+		name = "PainterAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	E743843512B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0F8F97DF1235D5EC00F1F3EA /* HomeViewController.h */;
+		name = "HomeViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	E743843612B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0F8F97E01235D5EC00F1F3EA /* HomeViewController.m */;
+		name = "HomeViewController.m: 30";
+		rLen = 0;
+		rLoc = 837;
+		rType = 0;
+		vrLen = 1421;
+		vrLoc = 342;
+	};
+	E743843712B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0F8F97F21235D6EA00F1F3EA /* PainterView.h */;
+		name = "PainterView.h: 25";
+		rLen = 8;
+		rLoc = 433;
+		rType = 0;
+		vrLen = 562;
+		vrLoc = 0;
+	};
+	E743843812B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0F8F99281235E7CF00F1F3EA /* Squiggle.h */;
+		name = "Squiggle.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	E743843912B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0F8F97F31235D6EA00F1F3EA /* PainterView.m */;
+		name = "PainterView.m: 158";
+		rLen = 0;
+		rLoc = 4008;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 243;
+	};
+	E743843A12B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E743843B12B905F900C1ED63 /* NSValue.h */;
+		name = "NSValue.h: 19";
+		rLen = 77;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	E743843B12B905F900C1ED63 /* NSValue.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSValue.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h;
+		sourceTree = "<absolute>";
+	};
+	E743843D12B905F900C1ED63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0F8F99291235E7CF00F1F3EA /* Squiggle.m */;
+		name = "Squiggle.m: 12";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 33;
+	};
+	E7AFB1DA12B99C4600C4CF8B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0F8F99291235E7CF00F1F3EA /* Squiggle.m */;
+		name = "Squiggle.m: 12";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 33;
+	};
+}
