@@ -18,6 +18,7 @@
 	UIColor *color;
 	float lineWidth;
 }
+@property (nonatomic,assign)float scale;
 @property (nonatomic, retain) UIColor *color;
 @property float lineWidth;
 @property (nonatomic,assign) id delegate;

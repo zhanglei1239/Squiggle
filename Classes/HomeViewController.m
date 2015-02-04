@@ -26,11 +26,12 @@
         [_painterView setBackgroundColor:[UIColor redColor]];
 		[self.view addSubview:_painterView];
         _painterView.delegate = self;
+        _painterView.scale = 1;
         
-        _painterView1 = [[PainterView alloc] initWithFrame:CGRectMake(0, 0, 320, 100)];
-        [_painterView1 setBackgroundColor:[UIColor clearColor]];
+        _painterView1 = [[PainterView alloc] initWithFrame:CGRectMake(0, 0, 320, 60)];
+        [_painterView1 setBackgroundColor:[UIColor yellowColor]];
         [showView addSubview:_painterView1];
-        
+        _painterView1.scale = 100*1.0/60;
 		_toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 440, 320, 40)];
 		_toolbar.barStyle = UIBarStyleBlack;
 		[self.view addSubview:_toolbar];
@@ -83,7 +84,7 @@
     [super dealloc];
 }
 
--(void)copyDrawRect:(NSMutableDictionary *)squi finish:(NSMutableArray *)finishSqui{
+-(void)copyDrawRect:(NSMutableDictionary *)squi finish:(NSMutableArray *)finishSqui{ 
     _painterView1.squi = squi;
     _painterView1.finish = finishSqui;
     [_painterView1 setNeedsDisplay];
