@@ -58,14 +58,14 @@
 	CGPoint firstPoint;
 	//复制第1个元素值到firstPoint点中
 	[[pointArray1 objectAtIndex:0] getValue:&firstPoint];
-	CGContextMoveToPoint(context, firstPoint.x/self.scale, firstPoint.y/self.scale);
+	CGContextMoveToPoint(context, firstPoint.x/self.scale+self.offx, firstPoint.y/self.scale+self.offy);
 	for(int i = 1; i<[pointArray1 count];i++)
 	{
 		NSValue *value = [pointArray1 objectAtIndex:i];
 		CGPoint point ;
 		//将下一个点复制值,然后再在这两点之间画线
 		[value getValue:&point];
-		CGContextAddLineToPoint(context, point.x/self.scale, point.y/self.scale);
+		CGContextAddLineToPoint(context, point.x/self.scale+self.offx, point.y/self.scale+self.offy);
 	}
 	
 	CGContextStrokePath(context);

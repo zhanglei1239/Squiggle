@@ -18,6 +18,8 @@
 	UIColor *color;
 	float lineWidth;
 }
+@property (nonatomic,assign)float offx;
+@property (nonatomic,assign)float offy;
 @property (nonatomic,assign)float scale;
 @property (nonatomic, retain) UIColor *color;
 @property float lineWidth;

@@ -28,10 +28,20 @@
         _painterView.delegate = self;
         _painterView.scale = 1;
         
-        _painterView1 = [[PainterView alloc] initWithFrame:CGRectMake(0, 0, 320, 60)];
+        _painterView1 = [[PainterView alloc] initWithFrame:CGRectMake(0, 0, 50, 60)];
         [_painterView1 setBackgroundColor:[UIColor yellowColor]];
         [showView addSubview:_painterView1];
-        _painterView1.scale = 100*1.0/60;
+        
+        _painterView1.scale = (100*1.0/60)>(320*1.0/50)?(100*1.0/60):(320*1.0/50);
+
+        if ((_painterView.frame.size.width*1.0/_painterView1.frame.size.width)>(_painterView.frame.size.height*1.0/_painterView1.frame.size.height)) {
+            _painterView1.offx = 0;
+            _painterView1.offy = (_painterView.frame.size.height-_painterView1.frame.size.height)/2;
+        }else{
+            _painterView1.offx = (_painterView.frame.size.width-_painterView1.frame.size.width)/2;
+            _painterView1.offy = 0;
+        }
+        
 		_toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 440, 320, 40)];
 		_toolbar.barStyle = UIBarStyleBlack;
 		[self.view addSubview:_toolbar];
